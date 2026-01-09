@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  background: #0b7285;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.nav {
+  background: #e6f6f9;
+  text-align: center;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 15px;
+  color: #0b7285;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px;
+}
+
+.light {
+  background: #f8f9fa;
+}
+
+footer {
+  background: #0b7285;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* 📱 Mobile friendly */
+@media (max-width: 600px) {
+  .nav a {
+    display: block;
+  }
+}
